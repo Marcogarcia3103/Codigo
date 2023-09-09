@@ -1,0 +1,128 @@
+--Creamos la tabla empleados
+CREATE TABLE empleados (
+    nombre text,
+    apellido_paterno text,
+    apellido_materno text,
+	direccion text,
+	numero_telefono text,
+	edad int,
+	sucursal text,
+	encargado_sucursal text,
+	correo_electronico text,
+	contraseña text
+);
+--Creamos la tabla sucursales
+CREATE TABLE sucursales (
+	numero_sucursal int,
+    nombre_sucursal text,
+	encargado_sucursal text,
+	direccion_sucursal text,
+	numero_telefono_sucursal text,
+	ciudad_sucursal text,
+	estado_sucursal text
+);
+
+
+--Insert de info a la tabla empleados
+INSERT INTO empleados (nombre, apellido_paterno, apellido_materno, direccion, numero_telefono, edad, sucursal, encargado_sucursal, correo_electronico, contraseña) VALUES 
+
+('Juan', 'Pérez', 'Gómez', '123 Calle del Sol, Ciudad Brillante, País de la Imaginación','1536795713','50','Boutique Elegancia Urbana','Miguel Lopez','Juan.perez@boutique.com','Huevo25'),
+
+('Reyna', 'Ramirez', 'Sanchez', '456 Avenida de los Sueños, Pueblo Encantado, Tierra de la Fantasía','1536795713','31','Boutique Elegancia Urbana','Miguel Lopez','Reyna.martinez@boutique.com','Casa3'),
+
+('Rodrigo', 'Garcia', 'Martinez', '789 Camino de las Estrellas, Villa Mágica, Reino de los Deseos','0547448325','33','Boutique Elegancia Urbana','Miguel Lopez','rodrigo.garcia@boutique.com','Gato17'),
+
+('Miguel', 'Lopez', 'Reynosa', '321 Boulevard de la Luna, Ciudad de los Cuentos, Nación de los Anhelos','8691980799','34','Boutique Elegancia Urbana','Miguel Lopez','miguel.lopez@boutique.com','Sol12'),
+
+('Laura', 'Inzunza', 'Perez', '654 Callejón de los Misterios, Pueblo de los Enigmas, Tierra de las Maravillas','1837754165','35','Boutique Elegancia Urbana','Miguel Lopez','laura.inzunza@boutique.com','Río8'),
+
+('Daniela', 'Beltran', 'Dominguez', '987 Avenida de las Ilusiones, Villa de los Secretos, País de los Sueños','8446026883','51','Boutique Chic y Glamour','Daniela Beltran','daniela.beltran@boutique.com','Perro99'),
+
+('Carlos', 'Olivas', 'Ojeda', '234 Calle de las Aventuras, Ciudad del Misterio, Nación de la Imaginación','6333892090','41','Boutique Chic y Glamour','Daniela Beltran','carlos.olivas@boutique.com','Lago44'),
+
+('Omar', 'Bejarano', 'Pacheco', '567 Carretera de los Tesoros, Pueblo de los Encantamientos, Tierra de los Enigmas','0226523625','33','Boutique Chic y Glamour','Daniela Beltran','omar.bejarano@boutique.com','Árbol7'),
+
+('Esmeralda', 'Castañeda', 'Felix', '890 Avenida de las Maravillas, Villa de las Sorpresas, Reino de los Anhelos','0882363605','56','Boutique Chic y Glamour','Daniela Beltran','esmeralda.castelo@boutique.com','Coche56'),
+
+('Refugio', 'Piña', 'Gonzales', '432 Calle del Éxtasis, Ciudad de la Magia, País de los Deseos','7272473479','42','Boutique Chic y Glamour','Daniela Beltran','refugio.piña@boutique.com','Playa63'),
+
+('Kimberly', 'Rojas', 'Escobar', '098 Avenida de la Felicidad, Villa de los Abrazos, Nación de la Fantasía','1563262971','43','Boutique La Moda Creativa','Rubi Medina','kimberly.rojas@boutique.com','Luna42'),
+
+('Rubi', 'Medina', 'Castillo', '543 Calle de los Recuerdos, Ciudad de los Sueños, Reino de los Momentos','7483534617','44','Boutique La Moda Creativa','Rubi Medina','rubi.medina@boutique.com','Montaña33'),
+
+('Raul', 'Espinoza', 'Navarro', '876 Boulevard de los Encantos, Pueblo de las Ilusiones, Terra de las Sorpresas','3734539910','49','Boutique La Moda Creativa','Rubi Medina','raul.espinoza@boutique.com','Zapato9'),
+
+('Javier', 'Mendoza', 'Rios', '210 Carretera de la Imaginación, Villa de las Sonrisas, País de la Magia','8758682830','52','Boutique La Moda Creativa','Rubi Medina','javier.mendoza@boutique.com','Tren71'),
+
+('Caleb', 'Aguilar', 'Flores', '345 Avenida de los Misterios, Ciudad de las Sorpresas, Nación de los Deseos','4856411581','55','Boutique La Moda Creativa','Rubi Medina','caleb.aguilar@boutique.com','Flor5'),
+
+('Jennifer', 'Valencia', 'Paredes', '678 Camino de la Aventura, Pueblo de los Secretos, Tierra de las Maravillas','8302473316','52','Boutique Encanto Vintage','Julio Torres','jennifer.valencia@boutique.com','Silla22'),
+
+('Maria', 'Vargas', 'Ruiz','123 Calle de los Anhelos, Villa de los Enigmas, Reino de los Tesoros','2470784332','52','Boutique Encanto Vintage','Julio Torres','maria.vargas@boutique.com','Mar77'),
+
+('Julio', 'Torres', 'Castro','456 Avenida de las Maravillas, Ciudad de los Encantamientos, País de las Sonrisas','6422971267','32','Boutique Encanto Vintage','Julio Torres','julio.torres@boutique.com','Mano2'),
+
+('Josue', 'Morales', 'Jimenez', '789 Boulevard de la Ilusión, Pueblo de los Sueños, Terra de los Recuerdos','5824157992','55','Boutique Encanto Vintage','Julio Torres','josue.morales@boutique.com','Nube11'),
+
+('Luis', 'Suarez', 'Castañeda', '321 Camino de la Esperanza, Villa de la Alegría, Nación de las Aventuras','6347344076','56','Boutique Encanto Vintage','Julio Torres','luis.suarez@boutique.com','Avion38'),
+
+('Alberto', 'Taboada', 'Zuñiga', '654 Callejón de los Sueños, Ciudad de las Sorpresas, Tierra de la Imaginación','3918349112','40','Boutique Estilo Contemporáneo','Abdiel Martinez','alberto.taboada@boutique.com','Camino60'),
+
+('Rodrigo', 'Silva', 'Guzman', '987 Avenida de los Deseos, Pueblo de los Tesoros, País de los Misterios','4186115149','46','Boutique Estilo Contemporáneo','Abdiel Martinez','rodrigo.silva@boutique.com','Libro4'),
+
+('Abdiel', 'Martinez', 'Garcia', '234 Carretera de la Magia, Villa de los Encantos, Reino de los Recuerdos','3482437106','46','Boutique Estilo Contemporáneo','Abdiel Martinez','abdiel.martinez@boutique.com','Ventana6'),
+
+('Melissa', 'Romero', 'Padilla', '567 Calle de los Secretos, Ciudad de las Maravillas, Nación de las Ilusiones','0504903693','38','Boutique Estilo Contemporáneo','Abdiel Martinez','melissa.romero@boutique.com','Pez29'),
+
+('Jonatan', 'Cortes', 'Lopez', '890 Avenida de las Sonrisas, Pueblo de los Anhelos, Terra de las Aventuras','1231783216','35','Boutique Estilo Contemporáneo','Abdiel Martinez','joantan.cortes@boutique.com','Globo91'),
+
+('Yatziry', 'Avila', 'Tapia', '432 Camino de los Enigmas, Villa de la Imaginación, País de los Sueños','8787929474','53','Boutique Glamour Bohemio','Karina Villanueva','yatziry.avila@boutique.com','Diente14'),
+
+('Oneida', 'Gonzalez', 'Urias', '765 Boulevard de los Sueños, Ciudad de la Felicidad, Reino de las Sorpresas','4857056140','43','Boutique Glamour Bohemio','Karina Villanueva','oneida.gonzalez@boutique.com','Pajaro50'),
+
+('Verenice', 'Sandoval', 'Duarte', '098 Calle de las Alegrías, Pueblo de los Recuerdos, Tierra de los Tesoros','3446446547','60','Boutique Glamour Bohemio','Karina Villanueva','verenice.sandoval@boutique.com','Pelota83'),
+
+('Karina', 'Villanueva', 'Vidal', '543 Avenida de la Fantasía, Villa de los Momentos, Nación de las Sonrisas','1910683396','51','Boutique Glamour Bohemio','Karina Villanueva','karina.villanueva@boutique.com','Pantalla27'),
+
+('Eduardo', 'Rodriguez', 'Ferrer', '876 Camino de las Sorpresas, Ciudad de los Enigmas, País de las Maravillas','0873990845','39','Boutique Glamour Bohemio','Karina Villanueva','eduardo.rodriguez@boutique.com','Reloj76'),
+
+('Alison', 'Garcia', 'Sanchez', '210 Carretera de los Encantamientos, Pueblo de las Ilusiones, Terra de las Alegrías','6719284289','49','Boutique Estilo Clásico','Israel Bravo','alison.garcia@boutique.com','Puerta19'),
+
+('Oliver', 'Angeles', 'Puerta', '345 Calle de los Tesoros, Villa de la Esperanza, Reino de los Deseos','9323807690','59','Boutique Estilo Clásico','Israel Bravo','oliver.angeles@boutique.com','Tierra10'),
+
+('Israel', 'Bravo', 'Quiroz', '678 Avenida de los Recuerdos, Ciudad de los Secretos, Nación de la Imaginación','7049666221','37','Boutique Estilo Clásico','Israel Bravo','israel.bravo@boutique.com','Pintura68'),
+
+('Julissa', 'Cisternas', 'Acevedo', '123 Boulevard de las Maravillas, Pueblo de las Sonrisas, País de los Anhelos','4596499904','50','Boutique Estilo Clásico','Israel Bravo','julissa.cisternas@boutique.com','Planta35'),
+
+('Eden', 'Cornejo', 'Araya', '456 Camino de la Alegría, Villa de los Deseos, Tierra de la Felicidad','4779948911','53','Boutique Estilo Clásico','Israel Bravo','eden.cornejo@boutique.com','Relámpago47'),
+
+('Keyla', 'Pizarro', 'Alvarez', '789 Calle de los Momentos, Ciudad de la Imaginación, Terra de los Encantamientos','9479472606','39','Boutique Exclusiva Glam','Pedro Madero','keyla.pizarro@boutique.com','Corazón72'),
+
+('Luz', 'Pino', 'Contreras', '321 Avenida de las Ilusiones, Pueblo de los Recuerdos, Reino de las Sorpresas','9807898282','32','Boutique Exclusiva Glam','Pedro Madero','luz.pino@boutique.com','Bolígrafo15'),
+
+('Pedro', 'Madero', 'Baldenegro','654 Carretera de la Magia, Villa de los Sueños, Nación de los Tesoros','8273313343','59','Boutique Exclusiva Glam','Pedro Madero','pedro.madero@boutique.com','Cielo59'),
+
+('Beatriz', 'Cazarez', 'Arellano','987 Calle de la Esperanza, Ciudad de los Anhelos, País de las Aventuras','5118006570','51','Boutique Exclusiva Glam','Pedro Madero','beatriz.cazarez@boutique.com','Botella25'),
+
+('Mizely', 'Villarreal', 'Beltran','123 Calle de la Imaginación, Ciudad de los Sueños , País de la Fantasía','7717921771','47','Boutique Exclusiva Glam','Pedro Madero','mizely.villarreal@boutique.com','Papel93');
+
+
+
+----Insert de info a la tabla sucursales
+insert into sucursales (numero_sucursal, nombre_sucursal, encargado_sucursal, direccion_sucursal, numero_telefono_sucursal, ciudad_sucursal, estado_sucursal)
+values
+('14','Boutique Elegancia Urbana','Miguel Lopez','983 Avenida insurgentes, entre diaz ordaz y venustiano carranza','8445623457','Lerdo','Durango'),
+
+('7','Boutique Chic y Glamour','Daniela Beltran','457 Avenida obregon, entre natividad inzunza y benito juarez','1247698532','Cosala','Sinaloa'),
+
+('19','Boutique La Moda Creativa','Rubi Medina','312 Avenida boulevares, entre enrique romero y Raul zamora','5569412378','Iztapalapa','Ciudad de mexico'),
+
+('36','Boutique Encanto Vintage','Julio Torres','874 Avenida valdez, entre martin sanchez y luis echeverria','5547430123','Tlalpan','Ciudad de mexico'),
+
+('21','Boutique Estilo Contemporáneo','Abdiel Martinez','315 Avenida madero, entre pedro bojorquez y pablo montes','3314547896','Ciudad Juarez','Chihuahua'),
+
+('5','Boutique Glamour Bohemio','Karina Villanueva','214 Avenida lopez, entre silvia puerta y miguel hidalgo','6674523645','Culiacan','Sinaloa'),
+
+('12','Boutique Estilo Clásico','Israel Bravo','763 Avenida Sanchez, entre brandon rodriguez y adrian piedra','4412589635','Monterrey ','Nuevo leon'),
+
+('23','Boutique Exclusiva Glam','Pedro Madero','158 Avenida castañeda, entre atlepomanco azul y karla zuñiga','9923654871','Merida ','Yucatan');
