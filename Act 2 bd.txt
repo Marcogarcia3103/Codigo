@@ -1,0 +1,59 @@
+select * from [dbo].[factura]
+select * from [dbo].[producto]
+select * from [dbo].[detalle]
+select * from [dbo].[cliente]
+select * from [dbo].[categoria]
+
+-- Seleccionar los clientes del año 2021 en base a la fecha de la factura. --
+select id_cliente,fecha 
+from [dbo].[factura]
+where fecha between '2021-01-01' and '2021-12-31'
+order by fecha asc
+
+--seleccionar los clientes de 2022 (hasta el momento) en base a la fecha de la factura.--
+select id_cliente,fecha 
+from [dbo].[factura]
+where fecha >= '2022-01-01'
+order by fecha asc
+
+--Seleccionar los clientes de diciembre de 2021.--
+select id_cliente,fecha 
+from [dbo].[factura]
+where fecha between '2021-12-01' and '2021-12-31'
+order by fecha asc
+
+--compras que han realizado los siguientes clientes--
+select 
+a.id_cliente,
+a.nombre,
+c.id_producto,
+c.nombre
+from(select id_cliente, nombre
+	from [dbo].[cliente]
+	where id_cliente in (2,17,24,4,11)) as a
+	left join
+	(select id_cliente, id_factura
+	from [dbo].[factura]) as b
+	on a.id_cliente = b.id_cliente
+	left join
+	(select id_producto, nombre
+	from [dbo].[producto]) as c
+	on b.id_factura = c.id_producto
+
+	--Seleccionar el producto que más ventas ha tenido--
+select a.nombre,a.id_producto, b.id_producto, b.precio 
+from [dbo].[producto] as a
+left join
+[dbo].[detalle] b
+on a.id_producto = b.id_producto
+order by b.precio desc 
+
+--¿Qué producto tienen más cantidad en stock?--
+select nombre,stock 
+from [dbo].[producto]
+order by stock desc
+
+--Ordenar, de la más antigua a la más reciente, las compras que ha habido en la tienda--
+select fecha
+from [dbo].[factura]
+order by fecha asc
