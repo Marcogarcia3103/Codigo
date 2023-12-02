@@ -1,0 +1,35 @@
+C:\Users\Usuario\Desktop\Windows\Respaldo\Estudio\PERIODO 4\Lenguajes programacion III\Proyecto\Proyecto Coppel\Proyecto Coppel\bin\Debug\Proyecto Coppel.exe.config
+C:\Users\Usuario\Desktop\Windows\Respaldo\Estudio\PERIODO 4\Lenguajes programacion III\Proyecto\Proyecto Coppel\Proyecto Coppel\bin\Debug\Proyecto Coppel.exe
+C:\Users\Usuario\Desktop\Windows\Respaldo\Estudio\PERIODO 4\Lenguajes programacion III\Proyecto\Proyecto Coppel\Proyecto Coppel\bin\Debug\Proyecto Coppel.pdb
+C:\Users\Usuario\Desktop\Windows\Respaldo\Estudio\PERIODO 4\Lenguajes programacion III\Proyecto\Proyecto Coppel\Proyecto Coppel\obj\Debug\Proyecto Coppel.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Windows\Respaldo\Estudio\PERIODO 4\Lenguajes programacion III\Proyecto\Proyecto Coppel\Proyecto Coppel\obj\Debug\Proyecto Coppel.csproj.SuggestedBindingRedirects.cache
+C:\Users\Usuario\Desktop\Windows\Respaldo\Estudio\PERIODO 4\Lenguajes programacion III\Proyecto\Proyecto Coppel\Proyecto Coppel\obj\Debug\Proyecto_Coppel.Form1.resources
+C:\Users\Usuario\Desktop\Windows\Respaldo\Estudio\PERIODO 4\Lenguajes programacion III\Proyecto\Proyecto Coppel\Proyecto Coppel\obj\Debug\Proyecto_Coppel.Properties.Resources.resources
+C:\Users\Usuario\Desktop\Windows\Respaldo\Estudio\PERIODO 4\Lenguajes programacion III\Proyecto\Proyecto Coppel\Proyecto Coppel\obj\Debug\Proyecto Coppel.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\Windows\Respaldo\Estudio\PERIODO 4\Lenguajes programacion III\Proyecto\Proyecto Coppel\Proyecto Coppel\obj\Debug\Proyecto Coppel.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Windows\Respaldo\Estudio\PERIODO 4\Lenguajes programacion III\Proyecto\Proyecto Coppel\Proyecto Coppel\obj\Debug\Proyecto Coppel.exe
+C:\Users\Usuario\Desktop\Windows\Respaldo\Estudio\PERIODO 4\Lenguajes programacion III\Proyecto\Proyecto Coppel\Proyecto Coppel\obj\Debug\Proyecto Coppel.pdb
+C:\Users\Usuario\Desktop\Windows\Respaldo\Estudio\PERIODO 4\Lenguajes programacion III\Proyecto\Proyecto Coppel\Proyecto Coppel\obj\Debug\Proyecto_Coppel.FormCentro.resources
+C:\Users\Usuario\Desktop\Windows\Respaldo\Estudio\PERIODO 4\Lenguajes programacion III\Proyecto\Proyecto Coppel\Proyecto Coppel\obj\Debug\Proyecto_Coppel.FormDirectivo.resources
+C:\Users\Usuario\Desktop\Windows\Respaldo\Estudio\PERIODO 4\Lenguajes programacion III\Proyecto\Proyecto Coppel\Proyecto Coppel\obj\Debug\Proyecto_Coppel.FormEmpleado.resources
+C:\Users\marco.garcias\Desktop\Proyecto Coppel\bin\Debug\Proyecto Coppel.exe.config
+C:\Users\marco.garcias\Desktop\Proyecto Coppel\bin\Debug\Proyecto Coppel.exe
+C:\Users\marco.garcias\Desktop\Proyecto Coppel\bin\Debug\Proyecto Coppel.pdb
+C:\Users\marco.garcias\Desktop\Proyecto Coppel\obj\Debug\Proyecto Coppel.csproj.AssemblyReference.cache
+C:\Users\marco.garcias\Desktop\Proyecto Coppel\obj\Debug\Proyecto_Coppel.Form1.resources
+C:\Users\marco.garcias\Desktop\Proyecto Coppel\obj\Debug\Proyecto_Coppel.FormCentro.resources
+C:\Users\marco.garcias\Desktop\Proyecto Coppel\obj\Debug\Proyecto_Coppel.FormDirectivo.resources
+C:\Users\marco.garcias\Desktop\Proyecto Coppel\obj\Debug\Proyecto_Coppel.FormEmpleado.resources
+C:\Users\marco.garcias\Desktop\Proyecto Coppel\obj\Debug\Proyecto_Coppel.Properties.Resources.resources
+C:\Users\marco.garcias\Desktop\Proyecto Coppel\obj\Debug\Proyecto Coppel.csproj.GenerateResource.cache
+C:\Users\marco.garcias\Desktop\Proyecto Coppel\obj\Debug\Proyecto Coppel.csproj.CoreCompileInputs.cache
+C:\Users\marco.garcias\Desktop\Proyecto Coppel\obj\Debug\Proyecto Coppel.exe
+C:\Users\marco.garcias\Desktop\Proyecto Coppel\obj\Debug\Proyecto Coppel.pdb
+C:\Users\mg610\OneDrive\Escritorio\Proyecto Coppel\obj\Debug\Proyecto Coppel.csproj.AssemblyReference.cache
+C:\Users\mg610\OneDrive\Escritorio\Proyecto Coppel\obj\Debug\Proyecto Coppel.csproj.SuggestedBindingRedirects.cache
+C:\Users\mg610\OneDrive\Escritorio\Proyecto Coppel\obj\Debug\Proyecto Coppel.exe
+C:\Users\mg610\OneDrive\Escritorio\Proyecto Coppel\obj\Debug\Proyecto Coppel.pdb
+C:\Users\mg610\OneDrive\Escritorio\Kamil\obj\Debug\Proyecto Coppel.csproj.AssemblyReference.cache
+C:\Users\mg610\OneDrive\Escritorio\Kamil\obj\Debug\Proyecto Coppel.csproj.SuggestedBindingRedirects.cache
+C:\Users\mg610\OneDrive\Escritorio\Kamil\obj\Debug\Proyecto Coppel.exe
+C:\Users\mg610\OneDrive\Escritorio\Kamil\obj\Debug\Proyecto Coppel.pdb
